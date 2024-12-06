@@ -1,0 +1,98 @@
+
+/* Estilo base del enlace */
+.mi-perfil {
+    text-decoration: none; /* Quita el subrayado por defecto */
+    color: #2a11b9; /* Color de texto verde */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    padding: 5px 10px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f0f0f0; /* Fondo gris claro */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animación de transición */
+ 
+}
+
+/* Estilo cuando el usuario pasa el cursor sobre el enlace */
+.mi-perfil:hover {
+    color: white; /* Cambia el color del texto */
+    background-color: #2510e4; /* Cambia el fondo cuando el cursor pasa por encima */
+}
+
+/* Estilo cuando el enlace es visitado */
+.mi-perfil:visited {
+    color: #9E9E9E; /* Cambia el color del enlace visitado */
+}
+
+/* Estilo cuando el enlace es activado (cuando se hace clic) */
+.mi-perfil:active {
+    color: #FFFFFF; /* Cambia el color del texto al hacer clic */
+    background-color: #3a0fd6; /* Cambia el fondo al hacer clic */
+
+}
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center;     /* Centra la imagen verticalmente */
+    height: 100vh;           /* Hace que el contenedor tenga toda la altura de la ventana */
+}
+
+.contenedor img {
+    max-width: 100%;   /* Hace que la imagen no se desborde */
+    max-height: 100%;  /* Limita la altura de la imagen para que no se desborde */
+}
+
+
+
+
+.header{
+    width: 100%;
+    background-color: #5c1cd3;
+    height: 18Sem;
+
+}
+.container{
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container .opjetos {
+    color: white;
+    text-decoration:none;
+    padding-left: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    width: 50em;
+    height: 9em;
+
+}
+.container .opjetos > h1{
+    background-color: rgb(15, 172, 75);
+    border-radius: 5px;
+}
+.container .presentacion > img {
+    border-radius: 20px;
+    width: 15em;
+    height: 15em;
+}
+
+
+/* <-- fin de mi header>-- */
+
+/* <-- hero--> */
+
+.hero{
+    background-image: url(../fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    
+}
+.padre{
+    position:relative;
+}
